@@ -1,3 +1,4 @@
+/*Following can be acheived by use of simple for loop as well.*/
 #include<iostream>
 #include<stdio.h>
 #include<conio.h>
