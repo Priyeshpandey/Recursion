@@ -2,6 +2,7 @@
 #include<iostream>
 #include<stdio.h>
 #include<conio.h>
+#include<iomanip>
 using namespace std;
 class fibo{
 
@@ -35,5 +36,5 @@ class fibo{
 
 int main(){
     fibo s;
-    cout<<s.fibonacci(30);
+    cout<<setprecision(21)<<s.fibonacci(30);
 }
