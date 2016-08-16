@@ -6,7 +6,7 @@
 using namespace std;
 class fibo{
 
-            private:long ar[1000];
+            private:double ar[1000];
                     int x;
             public:
                 void keep(int a){
@@ -26,7 +26,7 @@ class fibo{
 
                     }
                 }
-                    long fibonacci(int a){
+                    double fibonacci(int a){
                     keep(a);
                     fun(a);
                     return ar[a-1];
